@@ -14,10 +14,10 @@
     <div class="menu">
       <!-- Aqui vai o seu menu -->
       <ul>
-        <li><a href="/index.html">Início</a></li>
-        <li><a href="/sobre.html">Sobre nós</a></li>
-        <li><a href="/horario.html">Horários</a></li>
-        <li><a href="/contato.html">Contato</a></li>
+        <li><a class="link-menu" href="/index.html">Início</a></li>
+        <li><a class="link-menu" href="/sobre.html">Sobre nós</a></li>
+        <li><a class="link-menu" href="/horario.html">Horários</a></li>
+        <li><a class="link-menu" href="/contato.html">Contato</a></li>
       </ul>
     </div>
 
@@ -28,19 +28,35 @@
       </div>
 
       <div class="content">
-        <h1>Encontre sua melhor versão conosco</h1>
-        <p>A <strong>clínica Beauty</strong> atua no mercado desde 2015, contando com uma <strong>experiente e especializada equipe</strong>, formada por médicos, biomédicos, fisioterapeutas e esteticistas, no intuito de oferecer tratamentos que valorizam e restauram a aparência de seus pacientes.</p>
-        <h2>Inovação e excelência</h2>
-        <p>A clínica possui <strong>equipamentos da mais alta tecnologia da estética internacional</strong>, com certificação da Anvisa e usa os melhores e mais conceituados medicamentos e produtos do mercado.</p>
-        <!-- Aqui vai o seu conteúdo -->
+        <h1>Nosso Contato</h1>
+        <p>Por meio desse canal, os clientes e médicos podem agendar suas consultas, registrar suas reclamações, sugestões e elogios com profissionais altamente capacitados e treinados para atendê-los.</p>
+
+        <p><strong>Telefone</strong> - (61) 0000-0000</p>
+        <p><strong>Endereço</strong> - SGAS 610/611 - Centro Médico Lúcio Costa</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3838.532827030923!2d-47.906999424869085!3d-15.828568784816655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x935a2549a4598767%3A0x2031576cbb95b5aa!2sCentro%20M%C3%A9dico%20L%C3%BAcio%20Costa!5e0!3m2!1spt-BR!2sbr!4v1709221248751!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <h2>Formulário de Contato</h2>
+        <form class="campos-form" action="#" method="post" name="Contact">
+          Nome: <input type="text" name="name"><br>
+          E-mail: <input type="email" name="email"><br>
+          Assunto: <input type="text" name="subject"><br>
+          <label for="">Mensagem:</label>
+          <textarea name="message" id="" cols="30" rows="10"></textarea> <br>
+          <button class="botao-form" type="submit">Enviar</button>
+          <button class="botao-form" type="reset">Limpar</button>
+        </form>
+
+        <!-- 
+      * Botões de envias e limpar formulário
+          Aqui vai o seu conteúdo -->
       </div>
 
       <div class="footer">
         <div class="container-redes-sociais">
           <h3>Siga nossas redes sociais</h3>
           <div class="redes-sociais">
-            <a href="https://www.instagram.com/" target="_blank"><img src="/img/icone-ig.png" alt="icone-ig" style="width:20px;height: 20px;"> </a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="/img/icone-fb.png" alt="icone-fb" style="width:20px;height: 20px;"></a>
+            <a class="icone-redes" href="https://www.instagram.com/" target="_blank"><img src="/img/icone-ig.png" alt="icone-ig" style="width:20px;height: 20px;"> </a>
+            <a class="icone-redes" href="https://www.facebook.com/" target="_blank"><img src="/img/icone-fb.png" alt="icone-fb" style="width:20px;height: 20px;"></a>
           </div>
         </div>
         <p>Todos os direitos reservados</p>
